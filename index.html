@@ -4,10 +4,60 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>IVEBank</title>
   </head>
+
   <body>
-    <div id="app"></div>
+    <header class="primary-header">
+      <div class="conteiner">
+        <a href="#"><img src="lib/logo.svg" alt="Manage"></a>
+        <nav class='primary-navigation'>
+          <ul role="list" class="nav-list">
+            <li><a href="#">Princing</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Community</a></li>
+          </ul>
+        </nav>
+        <button class="button">Get Started</button>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <div class="conteiner">
+          <div class="even-columns">
+            <div><h1 class="font-size-primary-heading font-weight-bold">
+              together to build
+              better products.</h1>
+              <p>Manage makes it simple for software teams to plan day-to-day
+                tasks while keeping the larger team goals in view.</p>
+              <button class="button"> Get Started </button>
+            </div>
+            <div>
+              <img src="lib/illustration-intro.svg" alt="Graphs">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="conteiner">
+          <div class="even-column">
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+
     <script type="module" src="/src/main.ts"></script>
   </body>
+
 </html>
